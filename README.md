@@ -7,10 +7,11 @@
 
 ## Instructions
 
-To get started, open `designs.js` and start building out the app's functionality.
+1) Choose Canvas size from gridHeigth and gridWidth in pixels and click submit
+2) Choose color you want to fill in the Canvas from the color picker
+3) Click or click-drag to fill Colors in the Canvas
+4) Double click a pixel space to remove the filled color
+5) After finishing select Print Content to save your work
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
 
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+Enjoy creating beautiful canvas designs
