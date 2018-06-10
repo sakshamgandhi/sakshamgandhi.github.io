@@ -8,7 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
-    <div class="container">
+    <div class="container"> 
     <h1>Saksham: Pixel Art Maker</h1>
 
     <h2>Choose Grid Size</h2>
@@ -20,12 +20,23 @@
         <input type="submit" id="button">
     </form>
 
-    <h3>Pick A Color</h3>
+    <h3>Pick A Color</h3>   
   
      <input type="color" id="colorPicker" value="#169829" class="input">
      <button class="button" onclick="printcontent()">Print content</button>
 
     <h2>Design Canvas</h2>
+    <div class="instructions" align="left" align="left">
+        <h2 class="instructions-heading">Instructions</h2>
+        <ul class="instructions-list">
+            <li>Choose Canvas size from gridHeigth and gridWidth in pixels and click submit</li>
+            <li>Choose color you want to fill in the Canvas from the color picker</li>
+            <li>Click or click-drag to fill Colors in the Canvas</li>
+            <li>Double click a pixel space to remove the filled color</li>
+            <li>After finishing select Print Content to save your work</li>
+        </ul>
+        <h4>Enjoy creating beautiful canvas designs</h4>
+    </div>
     <table id="pixelCanvas"></table>
 </div>
     <script src="designs.js"></script>
