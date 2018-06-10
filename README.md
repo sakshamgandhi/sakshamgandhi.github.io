@@ -14,4 +14,4 @@
 5) After finishing select Print Content to save your work
 
 
-Enjoy creating beautiful canvas designs
+#Enjoy creating beautiful canvas designs
